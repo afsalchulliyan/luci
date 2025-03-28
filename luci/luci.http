@@ -1,0 +1,6 @@
+@luci_HostAddress = http://localhost:5009
+
+GET {{luci_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
